@@ -17,8 +17,10 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
 
-<script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+    
     <script src="assets/js/base.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -36,18 +38,51 @@
     <div class="header">
         <img src="assets/images/section-1.jpg" alt="" class="img-responsive">
         <a href="" class="logotipo fLeft mTop40"><img src="assets/images/fazenda-lagonegro.png" alt="" class=""></a>
-        <div class="menu fRight">
-          <ul>
-            <li><a href="">O café</a></li>
-            <li><a href="#afazenda">A Fazenda</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#maquinas">Máquinas</a></li>
-            <li><a href="#loja">Loja Virtual</a></li>
-            <li><a href="#clientes">Clientes</a></li>
-            <li><a href="#contato">Contato</a></li>
-          </ul>
+        <!-- Static navbar -->
+        <div class="menu">
+          <nav class="navbar navbar-default">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav pull-right">
+                  <li><a href="">O café</a></li>
+                  <li><a href="#afazenda">A Fazenda</a></li>
+                  <li><a href="#servicos">Serviços</a></li>
+                  <li><a href="#maquinas">Máquinas</a></li>
+                  <li><a href="#loja">Loja Virtual</a></li>
+                  <li><a href="#clientes">Clientes</a></li>
+                  <li><a href="#contato">Contato</a></li>
+                  
+                </ul>
+               
+              </div><!--/.nav-collapse -->
+            </div><!--/.container -->
+          </nav>
         </div>
         <div class="clearfix"></div>
+        <div class="container mTop180">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="textTop">
+                O café <strong>Fazenda LagoNegro</strong> é cultivado a mais de 900 metros<br>
+                de altitude na região montanhosa ao sul de Minas Gerais,<br>
+                o blend vem da perfeita combinação de grãos arábica,<br>
+                que resultaram num café de aroma frutado intenso e doçura natural, característica dos grãos produzidos na região Sul de Minas.
+              </p><br><br>
+              <p class="textTop">
+                <strong>É uma viagem sensorial aos aromas e sabores
+                que só quem produz pode oferecer, aproveite !!!</strong>
+              </p>
+            </div>
+          </div>
+        </div>
     </div>
 
     <div class="section-two" id="afazenda">
