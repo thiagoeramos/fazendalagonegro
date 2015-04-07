@@ -77,7 +77,8 @@ p, ul, ol { margin:0; padding:0; }
 
 
 .section-five{ width: 100%; height: 920px; background: #fff; color: #000; text-align: center;}
-.section-five .container .maisInfo{ font: bold 20px 'Verdana', sans-serif; color: #f15a29; }
+.section-five .container .maisInfo,
+.section-five .container .maisInfo a{ font: bold 20px 'Verdana', sans-serif; color: #f15a29; }
 .section-five .container strong{ color: #808285; font-size: 18px; }
 .section-five .container h2{ color: #000; font: bold 24px 'Verdana', sans-serif; letter-spacing: 4px;  }
 .section-five .container p{ color: #6d6e71; font: 18px 'Verdana', sans-serif; line-height: 34px; }
@@ -93,3 +94,7 @@ p, ul, ol { margin:0; padding:0; }
 .section-seven p{ color: #6d6e71; font: 16px 'Verdana', sans-serif; line-height: 30px; letter-spacing: 2px; }
 
 .section-eight{ width:100%; min-height:600px; position: relative; margin: 0 auto;}
+.textoContato{ position: absolute; top: 50px; width: 800px; left: 50%; margin-left: -400px; }
+.textoContato p,
+.textoContato p a{ font: 16px 'Verdana', sans-serif; color:#FFF; line-height: 40px; }
+.textoContato p span{ color: #c49a6c; }
