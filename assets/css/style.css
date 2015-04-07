@@ -1,0 +1,91 @@
+/*
+ *
+ *	CSS Styles escritos por Felipe Romero, última atualização em 25.06.2014
+ *	http://www.feliperomero.com.br/
+ *
+ */
+
+/*================= GLOBALS ========================================================*/
+*{ outline: none; list-style: none; margin: 0px; padding: 0px; }
+body { background: #000000; font: 14px Verdana, sans-serif; color:#FFFFFF; text-rendering: optimizeSpeed; }
+
+a{ text-decoration: none; }
+a:focus{ outline:none; }
+a, a:link, a:visited{ text-decoration:none; cursor:pointer; }
+a:hover{ text-decoration:none; cursor:pointer; }
+p, ul, ol { margin:0; padding:0; }
+
+.clear { width:100%; height:auto; clear:both; }
+.fLeft{ float: left; }
+.fRight{ float: right; }
+
+.mTop10{ margin-top: 10px !important; }
+.mTop20{ margin-top: 20px !important; }
+.mTop30{ margin-top: 30px !important; }
+.mTop40{ margin-top: 40px !important; }
+.mTop50{ margin-top: 50px !important; }
+.mTop60{ margin-top: 60px !important; }
+.mTop63{ margin-top: 63px !important; }
+.mTop70{ margin-top: 70px !important; }
+.mTop80{ margin-top: 80px !important; }
+.mTop90{ margin-top: 90px !important; }
+.mTop100{ margin-top: 100px !important; }
+.mTop120{ margin-top: 120px !important; }
+.mTop150{ margin-top: 150px !important; }
+.mTop180{ margin-top: 180px !important; }
+.mTop200{ margin-top: 200px !important; }
+
+.mBottom20{ margin-bottom: 20px; }
+
+.mLeft10{ margin-left: 10px; }
+.mLeft20{ margin-left: 20px; }
+.mLeft30{ margin-left: 30px; }
+.mLeft35{ margin-left: 35px; }
+.mLeft40{ margin-left: 40px; }
+.mLeft50{ margin-left: 50px; }
+
+.mRight20{ margin-right: 20px; }
+.mRight25{ margin-right: 25px; }
+
+.header{ width: 100%; height:564px; position: relative; }
+.header img{ position: absolute; }
+
+.menu{ margin: 75px 50px 0 0; position: absolute; right: 0; }
+.menu ul li{ display: inline-block; }
+.menu ul li a{ font-size: 16px; color: #FFF; padding: 0 10px; }
+.menu ul li a:hover{ border-bottom: 2px solid #422511; padding-bottom: 7px; }
+
+.content{ width:80%; margin: 0 auto; background: red; }
+
+.section-two{ width: 100%; height: 430px; position: relative; }
+.section-two img{ position: absolute; }
+.textSectionTwo h2{ color: #855032 !important; font: bold 24px 'Verdana', sans-serif !important; letter-spacing: 4px; }
+.textSectionTwo p{ color: #6d6e71; font: 18px 'Verdana', sans-serif; line-height: 30px; }
+
+.section-three{ width:100%; height: 570px; background: #e7e7e8; }
+.section-three .container h2{ color: #231f20; font: bold 24px 'Verdana', sans-serif; letter-spacing: 4px;  }
+.section-three .container p{ color: #6d6e71; font: 18px 'Verdana', sans-serif; line-height: 34px; }
+
+.section-four{ width: 100%; min-height: 249px; background: #fff; position: relative; }
+.section-four img{ position: absolute;}
+.section-four h2{ color: #FFF !important; font: normal 24px 'Verdana', sans-serif !important; letter-spacing: 4px; }
+.section-four p{ color: #c49a6c; font: 16px 'Verdana', sans-serif; line-height: 30px; letter-spacing: 2px; }
+
+
+.section-five{ width: 100%; height: 920px; background: #fff; color: #000; text-align: center;}
+.section-five .container .maisInfo{ font: bold 20px 'Verdana', sans-serif; color: #f15a29; }
+.section-five .container strong{ color: #808285; font-size: 18px; }
+.section-five .container h2{ color: #000; font: bold 24px 'Verdana', sans-serif; letter-spacing: 4px;  }
+.section-five .container p{ color: #6d6e71; font: 18px 'Verdana', sans-serif; line-height: 34px; }
+
+.section-six{ width: 100%; height: 750px; background: #fff; position: relative; margin: 0 auto; text-align: center; }
+.section-six img{ position: absolute; }
+.section-six h2{ color: #fff; font: bold 24px 'Verdana', sans-serif; letter-spacing: 4px;  }
+.section-six p{ color: #fff; font: 18px 'Verdana', sans-serif; line-height: 34px; }
+.section-six a.link{ position: absolute; left: 50%; margin-left: -215px; bottom: 120px; background: url(i/loja-virtual.png) no-repeat; display: block; width: 430px; height: 45px; }
+
+.section-seven{ width:100%; height:590px; background: url(i/bg-section.png) top repeat-x #e7e7e8; }
+.section-seven h2{ color: #000 !important; font: bold 24px 'Verdana', sans-serif !important; letter-spacing: 4px; }
+.section-seven p{ color: #6d6e71; font: 16px 'Verdana', sans-serif; line-height: 30px; letter-spacing: 2px; }
+
+.section-eight{ width:100%; min-height:600px; position: relative; margin: 0 auto;}
