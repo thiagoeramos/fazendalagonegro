@@ -30,4 +30,10 @@ var offset = 220;
 	        }
 	  	});
 
+   $('#slides').superslides({
+        hashchange: true,
+        pagination: true,
+        inherit_height_from: '.header'
+    });
+
 });

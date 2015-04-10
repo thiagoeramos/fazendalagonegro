@@ -1,0 +1,68 @@
+#slides {
+  position: relative;
+  max-height: 760px !important;
+}
+#slides .slides-container {
+  display: none;
+}
+#slides .scrollable {
+  *zoom: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+}
+#slides .scrollable:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.slides-navigation {
+  margin: 0 auto;
+  position: absolute;
+  z-index: 3;
+  top: 46%;
+  width: 100%;
+}
+.slides-navigation a {
+  position: absolute;
+  display: block;
+  width:54px;
+  height:106px;
+}
+.slides-navigation a.prev {
+  left: 20px;
+  background: url(i/prev.png) no-repeat;
+}
+.slides-navigation a.next {
+  right: 20px;
+  background: url(i/next.png) no-repeat;
+}
+
+.slides-pagination {
+  position: absolute;
+  z-index: 3;
+  bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+.slides-pagination a {
+  width: 20px;
+  height: 20px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;  
+  *display: inline;
+  background-image: url(i/pagination.png);
+  overflow: hidden;
+  text-indent: -100%;
+  text-indent: 100px;
+  margin-right: 10px;
+}
+.slides-pagination a.current {
+  background: url(i/pagination-current.png);
+}
