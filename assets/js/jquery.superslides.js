@@ -12,7 +12,7 @@ Superslides = function(el, options) {
     animation_easing: 'swing',
     animation: 'slide',
     inherit_width_from: window,
-    inherit_height_from: 'header',
+    inherit_height_from: window,
     pagination: true,
     hashchange: false,
     scrollable: true,
