@@ -69,7 +69,7 @@ p, ul, ol { margin:0; padding:0; }
 .section-two{ width: 100%; height: 430px; position: relative; }
 .section-two img{ position: absolute; }
 .textSectionTwo h2{ color: #855032 !important; font: bold 24px 'Verdana', sans-serif !important; letter-spacing: 4px; }
-.textSectionTwo p{ color: #6d6e71; font: 18px 'Verdana', sans-serif; line-height: 30px; }
+.textSectionTwo p{ color: #6d6e71; font: 18px 'Verdana', sans-serif; line-height: 30px; text-align: justify; }
 
 .section-three{ width:100%; height: 570px; background: #e7e7e8; }
 .section-three .container h2{ color: #231f20; font: bold 24px 'Verdana', sans-serif; letter-spacing: 4px;  }
