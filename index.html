@@ -34,6 +34,21 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script>
+      $(function(){   
+      var nav = $('#header');   
+      $(window).scroll(function () { 
+        if ($(this).scrollTop() > 150) { 
+          nav.css("display", "none"); 
+          $('.menu-fixo').css("display", "block"); 
+        } else { 
+          $('.menu-fixo').css("display", "none"); 
+          nav.css("display", "block"); 
+        } 
+      });  
+    });
+    </script>
+
   </head>
 
   <body>
@@ -103,7 +118,39 @@
         </nav>
       </div>
 
-        <a href="" class="logotipo fLeft mTop40"><img src="assets/images/fazenda-lagonegro.png" alt="" class=""></a>
+      <div class="menu-fixo">
+        <div class="container">
+          <nav class="navbar navbar-default">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav pull-right">
+                  <li><a href="">O Café</a></li>
+                  <li><a href="#afazenda">A Fazenda</a></li>
+                  <li><a href="#servicos">Serviços</a></li>
+                  <li><a href="#maquinas">Máquinas</a></li>
+                  <li><a href="#loja">Loja Virtual</a></li>
+                  <li><a href="#clientes">Clientes</a></li>
+                  <li><a href="#contato">Contato</a></li>
+                  
+                </ul>
+               
+              </div><!--/.nav-collapse -->
+            </div><!--/.container -->
+          </nav>
+        </div>
+      </div>
+
+      <div id="header">
+
+        <a href="javscript:" class="logotipo fLeft mTop40"><img src="assets/images/fazenda-lagonegro.png" alt="" class=""></a>
         <!-- Static navbar -->
         <div class="menu">
           <nav class="navbar navbar-default">
@@ -133,12 +180,14 @@
           </nav>
         </div>
         <div class="clearfix"></div>
+
+      </div>
        
     </div>
 
     <div class="section-two" id="afazenda">
       <div class="cycle-slideshow" data-cycle-fx="fade" data-cycle-next=".nextControl" data-cycle-timeout="0" data-cycle-overlay-template="<div class='col-md-4 col-lg-4 col-lg-offset-1 textSectionTwo mTop50'><h2>{{title}}</h2><br><p>{{desc}}</p></div>">
-        <div class="cycle-overlay custom" style="position:absolute;top:0;z-index:9999;"></div>
+        <div class="cycle-overlay custom" style="position:absolute;top:0;z-index:7777;"></div>
         <img src="assets/images/section-2.jpg" data-title="A Fazenda" data-cycle-desc="Fazenda Lagonegro, nome que homenageia a cidade Italiana de origem da família, está localizada ao Sul de Minas Gerais, região conhecida internacionalmente pela qualidade dos grãos produzidos em altitude elevada que varia entre 900 e 1200 metros." class="img-responsive">
         <img src="assets/images/section-2-b.jpg" data-title="A Fazenda" data-cycle-desc="Com a produção de grãos 100% Arábica, toda a colheita seletiva é feita manualmente, após a colheita, todo manuseio dos grãos é feito com maquinas de alta tecnologia, possibilitando  um alto controle de qualidade e a preservação do meio ambiente." class="img-responsive">
         <img src="assets/images/section-2-c.jpg"  data-title="A Fazenda" data-cycle-desc="A qualidade do café é diretamente relacionada ao nível da biodiversidade, bons cafés só podem surgir de plantas em ambientes saudáveis e preservados. A Fazenda Lagonegro adota praticas de agricultura sustentável, respeitando o meio ambiente e as comunidades ao redor, mantendo e incentivando áreas de Proteção Ambiental e promovendo o crescimento social da região." class="img-responsive">
