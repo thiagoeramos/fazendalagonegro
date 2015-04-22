@@ -58,7 +58,11 @@ p, ul, ol { margin:0; padding:0; }
 
 .logotipo{ position: absolute; z-index: 9999; top: 0; }
 
-.menu{ margin: 75px 50px 0 0; position: absolute; right: 0; z-index: 8888; top:0; }
+.menu{ position: absolute; right: 60px; top: 60px; z-index: 9998; }
+
+.menu-fixo { position: fixed; top: 0; z-index: 9999; background: url("i/bg-text.png") repeat !important; width: 100%; height:55px; display:none; }
+.menu-fixo .menu{ right: none !important; }
+
 .text-header{ position: absolute; z-index: 7777; top: 180px; left:100px; }
 
 /*.nav li a:hover{ font-weight: bold !important; }*/
@@ -104,3 +108,4 @@ p, ul, ol { margin:0; padding:0; }
 .textoContato p,
 .textoContato p a{ font: 16px 'Verdana', sans-serif; color:#FFF; line-height: 40px; }
 .textoContato p span{ color: #c49a6c; }
+
