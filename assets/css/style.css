@@ -71,14 +71,26 @@ p, ul, ol { margin:0; padding:0; }
 
 .section-two{ width: 100%; height: 607px; position: relative; }
 .section-two img{ position: absolute; }
+
+/* pager */
+.cycle-pager {
+    text-align: center; width: 100%; z-index: 999 !important; position: absolute; bottom: -60px; overflow: hidden;
+}
+.cycle-pager span {
+    font-family: arial; font-size: 60px; width: 16px; height: 16px; margin: 5px;
+    display: inline-block; color: #ddd; cursor: pointer;
+}
+.cycle-pager span.cycle-pager-active { color: #663d1c;}
+.cycle-pager > * { cursor: pointer;}
+
 .textSectionTwo h2{ color: #855032 !important; font: bold 24px 'Verdana', sans-serif !important; letter-spacing: 4px; }
 .textSectionTwo p{ color: #6d6e71; font: 16px 'Verdana', sans-serif; line-height: 30px; text-align: justify; }
 
-.nextControl{ position: absolute; left: 140px; bottom:130px; z-index: 8888; background: url(i/next-text.png); cursor: pointer; width: 42px; height: 42px; display: block; }
+.nextControl{ position: absolute; left:540px; top:62px; z-index: 8888; background: url(i/next-text.png); cursor: pointer; width: 42px; height: 42px; display: block; }
 
 .section-three{ width:100%; height: 880px; background: #e7e7e8; margin-top: -100px; }
 .section-three .container h2{ color: #231f20; font: bold 24px 'Verdana', sans-serif; letter-spacing: 4px;  }
-.section-three .container p{ color: #6d6e71; font: 18px 'Verdana', sans-serif; line-height: 34px; }
+.section-three .container p{ color: #6d6e71; font: 17px 'Verdana', sans-serif; line-height: 25px; }
 
 .section-four{ width: 100%; min-height: 249px; background: #fff; position: relative; }
 .section-four img{ position: absolute;}
