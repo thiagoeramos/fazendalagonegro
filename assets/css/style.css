@@ -60,7 +60,7 @@ p, ul, ol { margin:0; padding:0; }
 
 .menu{ position: absolute; right: 60px; top: 60px; z-index: 9998; }
 
-.menu-fixo { position: fixed; top: 0; z-index: 9999; background: url("i/bg-text.png") repeat !important; width: 100%; height:55px; display:none; }
+.menu-fixo { position: fixed; top: 0; z-index: 9999; background: url("i/bg-text.png") repeat !important; width: 100%; height:65px; display:none; }
 .menu-fixo .menu{ right: none !important; }
 
 .text-header{ position: absolute; z-index: 7777; top: 180px; left:100px; }
@@ -69,7 +69,7 @@ p, ul, ol { margin:0; padding:0; }
 
 .content{ width:80%; margin: 0 auto; background: red; }
 
-.section-two{ width: 100%; height: 607px; position: relative; }
+.section-two{ width: 100%; height: 507px; position: relative; }
 .section-two img{ position: absolute; }
 
 /* pager */
@@ -88,24 +88,24 @@ p, ul, ol { margin:0; padding:0; }
 
 .nextControl{ position: absolute; left:540px; top:62px; z-index: 8888; background: url(i/next-text.png); cursor: pointer; width: 42px; height: 42px; display: block; }
 
-.section-three{ width:100%; height: 880px; background: #e7e7e8; margin-top: -100px; }
+.section-three{ width:100%; height: auto; background: #e7e7e8; margin-top: 0px; padding-top: 30px; padding-bottom: 20px; }
 .section-three .container h2{ color: #231f20; font: bold 24px 'Verdana', sans-serif; letter-spacing: 4px;  }
-.section-three .container p{ color: #6d6e71; font: 17px 'Verdana', sans-serif; line-height: 25px; }
+.section-three .container p{ color: #6d6e71; font: 17px 'Verdana', sans-serif; line-height: 20px; }
 
-.section-four{ width: 100%; min-height: 249px; background: #fff; position: relative; }
+.section-four{ width: 100%; min-height: 249px;  background: #fff; position: relative; }
 .section-four img{ position: absolute;}
 .section-four h2{ color: #FFF !important; font: normal 24px 'Verdana', sans-serif !important; letter-spacing: 4px; }
-.section-four p{ color: #c49a6c; font: 16px 'Verdana', sans-serif; line-height: 30px; letter-spacing: 2px; }
+.section-four p{ color: #c49a6c; font: 15px 'Verdana', sans-serif; line-height: 30px; letter-spacing: 2px; }
 
 
-.section-five{ width: 100%; height: 1130px; background: #fff; color: #000; text-align: center;}
+.section-five{ width: 100%; height: 1000px;  padding-top:10px; background: #fff; color: #000; text-align: center;}
 .section-five .container .maisInfo,
 .section-five .container .maisInfo a{ font: bold 20px 'Verdana', sans-serif; color: #f15a29; }
 .section-five .container strong{ color: #808285; font-size: 18px; }
 .section-five .container h2{ color: #000; font: bold 24px 'Verdana', sans-serif; letter-spacing: 4px;  }
 .section-five .container p{ color: #6d6e71; font: 18px 'Verdana', sans-serif; line-height: 34px; }
 
-.section-six{ width: 100%; height: 750px; background: #fff; position: relative; margin: 0 auto; text-align: center; }
+.section-six{ width: 100%; height: 720px;  padding-top:68px; background: #fff; position: relative; margin: 0 auto; text-align: center; }
 .section-six img{ position: absolute; }
 .section-six h2{ color: #fff; font: bold 24px 'Verdana', sans-serif; letter-spacing: 4px;  }
 .section-six p{ color: #fff; font: 18px 'Verdana', sans-serif; line-height: 34px; }
@@ -115,7 +115,7 @@ p, ul, ol { margin:0; padding:0; }
 .section-seven h2{ color: #000 !important; font: bold 24px 'Verdana', sans-serif !important; letter-spacing: 4px; }
 .section-seven p{ color: #6d6e71; font: 16px 'Verdana', sans-serif; line-height: 30px; letter-spacing: 2px; }
 
-.section-eight{ width:100%; min-height:600px; position: relative; margin: 0 auto;}
+.section-eight{ width:100%; min-height:600px; position: relative; margin: 0 auto; padding-bottom: 90px;}
 .textoContato{ position: absolute; top: 50px; width: 800px; left: 50%; margin-left: -400px; }
 .textoContato p,
 .textoContato p a{ font: 16px 'Verdana', sans-serif; color:#FFF; line-height: 40px; }
