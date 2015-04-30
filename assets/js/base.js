@@ -22,9 +22,9 @@ var offset = 220;
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 
             var tTop= target.offset().top;
-            
-            if(target =="afazenda") {
-                tTop = tTop -10;
+
+            if( this.hash.slice(1)  =="afazenda") {
+                tTop = tTop -65;
             }
 
             if (target.length) {
