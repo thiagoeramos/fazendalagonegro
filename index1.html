@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <meta http-equiv="refresh" content="0;URL=http://www.fazendalagonegro.com.br/site">
+        <title>Caf&eacute; Lagonegro</title>
+        
+        <style type="text/css">            
+            #mask{ position:fixed; top:0px;  left:0px; height:100%; width:100%; display: none; background: #000000; opacity:0.70; -moz-opacity: 0.70; filter: alpha(opacity=70); }
+            .modal_window{ position:absolute; width: 600px; height: 233px; display: none; color:white; box-shadow: 1px 2px 5px #000000; }
+            .modal_window img{  z-index: 999999; }            
+            a.close_modal{ text-decoration: none; color: #ffffff; cursor: pointer; position: absolute; right: -15px; top: -15px; background: #858585; padding: 4px 10px 4px 10px; border-radius: 40px; font-size: 15px; font-family: arial; }
+            a.close_modal:hover{ color: #fdfdfd; background: #666666;}
+        </style>
+                
+        <script type="text/javascript" src="jquery.js"></script>
+        
+        <script type="text/javascript">
+            $(window).ready(function(){
+                
+                $('.modal_window').css('zIndex',999).fadeIn("slow");
+                $("#mask").fadeIn("fast");
+                
+                // tamanho da pagina            
+                var window_width = $(window).width();
+                var window_height = $(window).height();  
+                
+                // tamanho do modal na página  
+                var modal_height = $('.modal_window').outerHeight();
+                var modal_width = $('.modal_window').outerWidth();                
+             
+                // definindo nova posição de modal na página
+                var top = (window_height-modal_height)/2;
+                var left = (window_width-modal_width)/2;
+              
+                $('.modal_window').css({'top' : top , 'left' : left});
+                
+                $('.close_modal,#mask').click(function(){   
+                    $('#mask').fadeOut(500);
+                    $('.modal_window').fadeOut(500);            
+                });        
+            });        
+        </script>
+    </head>
+<body bgcolor="#060606" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+    
+    <div id='mask' >&nbsp;</div>
+    <div class='modal_window'>
+            <img src="novo-telefone-fazenda-lago-negro.jpg"  alt="Novo telefone - 2679-6008" width="600" height="233"/>
+            <a class='close_modal' href="javascript:" title="Fechar" >X</a>
+        </div> 
+    
+   
+    <div align="left">
+    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="1002" height="550" align="middle">
+    <param name="allowScriptAccess" value="sameDomain" />
+    <param name="movie" value="lagonegro.swf" />
+    <param name="quality" value="high" />
+    <param name="bgcolor" value="#060606" />
+    <param name="wmode" value=”transparent“></param>
+    <embed wmode="transparent" src="lagonegro.swf" quality="high" bgcolor="#060606" width="1002" height="550" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /> 
+    </object>
+    </div>
+
+
+
+</body>
+</html>
